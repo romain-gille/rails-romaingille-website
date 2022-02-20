@@ -1,0 +1,56 @@
+// Place all the styles related to the me controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+html {
+  font-size: 16px;
+}
+.col-images {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  background-image: url("rorobo.webp");
+  background-position: center;
+  background-size: cover;
+  height: calc(100vh - 56px);
+  position: sticky;
+  position: -webkit-sticky;
+  top: 56px;
+}
+.title {
+  font-size: 5rem;
+  font-weight: lighter;
+}
+.catchphrase {
+  font-weight: lighter;
+  font-size: 2rem;
+}
+.sections {
+  font-weight: lighter;
+  p {
+    font-size: 1.3rem;
+    text-align: justify;
+  }
+  h3 {
+    font-size: 2.5rem;
+  }
+
+  a {
+    text-decoration: none;
+  }
+  li {
+    font-size: 1.1rem;
+    padding-bottom: 0.3rem;
+  }
+}
+.col-content {
+  box-shadow: 6px 6px 15px 1px rgba(0, 0, 0, 0.15);
+
+  .progress {
+    height: 20px;
+    border-radius: 10px;
+  }
+  .progress-bar {
+    border-radius: 10px;
+  }
+}

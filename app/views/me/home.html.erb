@@ -1,1 +1,40 @@
-<h1>hey</h1>
+<div class="container me">
+  <div class="row">
+    <div class="col-5  col-images">
+    </div>
+    <div class="col-7 p-5 text-center col-content">
+      <h1 class="title py-3"><%= @me["title"] %></h1>
+      <h2 class="pb-5 catchphrase"><i><%= @me["catchphrase"] %></i></h2>
+      <div class="sections text-start">
+        <h3 class=" pb-2 border-bottom my-4"><%= @me["sections"].first["title"] %></h3>
+        <p> <%= @me["sections"].first["content"] %> </p>
+      </div>
+      <% @me["sections"].filter{|sec| sec["title"]==="Work experience" || sec["title"]==="Education" }.each do |section| %>
+        <div class="sections text-start">
+          <h3 class=" pb-2 border-bottom my-4"><%= section["title"] %></h3>
+          <% section["experiences"].each do |experience| %>
+            <h4><%= experience["job"]%> <a href=<%= experience["place-link"] %> target="_blank">@<%= experience["place"] %></a></h4>
+            <h5><%= experience["time"] %></h5>
+            <ul class="px-0 py-2">
+              <% experience["aspects"].each do |aspect| %>
+                <li><%= aspect %></li>
+              <% end %>
+            </ul>
+          <% end %>
+        </div>
+      <% end %>
+      <div class="sections text-start">
+        <h3 class=" pb-2 border-bottom my-4"><%= @me["sections"][3]["title"] %></h3>
+        <% @me["sections"][3]["skills"] .each do |skill|%>
+          <h4><%= skill["name"] %></h4>
+          <div class="progress mb-3">
+            <div class="progress-bar" role="progressbar" style="width: <%= skill["percentage"] %>%"  aria-valuenow="<%= skill["percentage"] %>" aria-valuemin="0" aria-valuemax="100"> <%= skill["percentage"] %>%</div>
+          </div>
+        <% end %>
+      </div>
+      <div class="sections text-start">
+        <h3 class=" pb-2 border-bottom my-4"><%= @me["sections"][4]["title"] %></h3>
+      </div>
+    </div>
+  </div>
+</div>

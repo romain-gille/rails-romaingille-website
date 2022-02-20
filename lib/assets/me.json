@@ -1,0 +1,134 @@
+{
+  "title": "Romain GILLE",
+  "catchphrase": "Engineer in automation and web development",
+  "sections": [
+    {
+      "title": "About me",
+      "content": "I'm a motivated engineer interested in web development and process automation. I love to create simple and beautiful interfaces from scratch. In order to achieve it, I discovered many different programms like Microsoft Access, Powerapps, Adobe Lightroom and Inkscape. Actually Learning Front-End development, mastering ReactJs, Angular, Javascript, CSS and HTML motivates me. From various backgrounds, I now want to discover and tackle new challenges."
+    },
+    {
+      "title": "Work experience",
+      "experiences": [
+        {
+          "job": "Process planer",
+          "place": "EVUM Motors",
+          "place-link": "https://evum-motors.com/",
+          "time": "July 2020 - Today",
+          "aspects": [
+            "Creation of a database and an interface for the production",
+            "Development of an application for the logistics department",
+            "Automation of the data processes",
+            "Support of the production"
+          ]
+        },
+        {
+          "job": "International volunteering mission",
+          "place": "Calaboo",
+          "place-link": "http://www.calaboo.com",
+          "time": "January - March 2020",
+          "aspects": [
+            "Creation and design of a milk transformation process",
+            "Elaboration of specifications",
+            "Benchmarking of the different solutions on the market",
+            "Design of the facility"
+          ]
+        },
+        {
+          "job": "Development mission",
+          "place": "Gawad Kalinga",
+          "place-link": "https://gk1world.com/home",
+          "time": "September- december 2019",
+          "aspects": [
+            "Creation of a sustainable business with a developing community",
+            "Conception of a jam manufacturing facility",
+            "Coaching and training of small teams",
+            "Market study"
+          ]
+        },
+        {
+          "job": "Master student",
+          "place": "Volvo Construction Equipment",
+          "place-link": "https://www.volvoce.com/",
+          "time": "January - July 2019",
+          "aspects": [
+            "Creation of new layouts of the production line",
+            "Simulation of new processes on Tecnomatix Plant simulation",
+            "Evaluation of the different concepts ",
+            "Competitive intelligence "
+          ]
+        },
+        {
+          "job": "Bachelor student",
+          "place": "University of Applied Sciences Munich",
+          "place-link": "https://www.hm.edu/en/index.en.html",
+          "time": "September - November 2017",
+          "aspects": [
+            "Development of a system for non-contact fingerprint detection",
+            "Arduino Programming",
+            "Elaboration of a prototype"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Education",
+      "experiences": [
+        {
+          "job": "French-german master degree in production and automation",
+          "place": "University of Applied Sciences Munich",
+          "place-link": "https://www.hm.edu/en/index.en.html",
+          "time": "July 2019",
+          "aspects": [
+            "Double degree course between a french and a german school",
+            "Simulation and improvement",
+            "Logistics",
+            "Robot programming",
+            "Signals and systems"
+          ]
+        },
+        {
+          "job": "French-german highschool diploma",
+          "place": "LFA Buc",
+          "place-link": "http://www.lfa-buc.fr/",
+          "time": "June 2014",
+          "aspects": [
+            "Scientific curriculum specialized in mathematics and physics"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Skills",
+      "skills": [
+        {
+          "name": "Siemens plant simulation",
+          "percentage": 100
+        },
+        {
+          "name": "Microsoft Suite (Access, Excel, Powerpoint)",
+          "percentage": 100
+        },
+        {
+          "name": "Dassault 3Dexperience",
+          "percentage": 80
+        },
+        {
+          "name": "Microsoft Powerapps and Power automate",
+          "percentage": 80
+        },
+        {
+          "name": "Photography (portraiture, Photoshop, Lightroom)",
+          "percentage": 80
+        },
+        {
+          "name": "Creative vector illustration (Inkscape)",
+          "percentage": 80
+        },
+        {
+          "name": "Front end development(Reactjs, javascript, css, html, Angular)",
+          "percentage": 60
+        }
+      ]
+    }
+  ]
+}
