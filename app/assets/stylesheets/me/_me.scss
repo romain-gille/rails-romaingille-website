@@ -6,6 +6,9 @@
 html {
   font-size: 16px;
 }
+body {
+  color: rgb(18, 18, 29);
+}
 .col-images {
   overflow: hidden;
   background-image: url("rorobo.webp");
@@ -17,7 +20,7 @@ html {
   top: 56px;
 }
 .title {
-  font-size: 5rem;
+  font-size: 4rem;
   font-weight: lighter;
 }
 .catchphrase {
@@ -51,5 +54,32 @@ html {
   }
   .progress-bar {
     border-radius: 10px;
+  }
+}
+i {
+  font-size: 4rem;
+  margin: 1rem;
+  // &:hover {
+  //   color: grey;
+  //   cursor: pointer;
+  // }
+}
+@media only screen and (max-width: 992px) {
+  .col-images {
+    position: relative;
+    background-image: url("rorobo.webp");
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    width: 50vw;
+    height: 50vw;
+    margin: auto;
+    margin-bottom: 2rem;
+  }
+  .col-content {
+    box-shadow: none;
+  }
+  html {
+    font-size: 13px;
   }
 }

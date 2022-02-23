@@ -136,16 +136,19 @@
         {
           "name": "English",
           "level": "Fluent",
-          "precision": "Level C1 (TOEIC 990/990)"
+          "precision": "Level C1 (TOEIC 990/990)",
+          "img": "EN.png"
         },
         {
           "name": "German",
           "level": "Fluent",
-          "precision": "Level C1 (Goethe Institut)"
+          "precision": "Level C1 (Goethe Institut)",
+          "img": "DE.png"
         },
         {
           "name": "French",
-          "level": "Mother tongue"
+          "level": "Mother tongue",
+          "img": "FR.png"
         }
       ]
     },
@@ -156,17 +159,20 @@
           "name": "Music",
           "text": "Music, and mainly guitar and singing take an important part of my free time. I particularly like to improvise and sing with friends.",
           "link name": "Visit my Soundcloud",
-          "link": "https://soundcloud.com/user-533870676-962418520"
+          "link": "https://soundcloud.com/user-533870676-962418520",
+          "img": "guit.png"
         },
         {
           "name": "Photography",
           "text": "I like to discover the depths of photography with portaitures and landscapes. I am doing a lot of image editing too, which I find compelling.",
           "link name": "Visit my Unsplash",
-          "link": "https://unsplash.com/@rgille"
+          "link": "https://unsplash.com/@rgille",
+          "img": "camera.png"
         },
         {
           "name": "Hiking",
-          "text": "The freshness of the heights and the fantastics views given by nature are two things that I cherish."
+          "text": "The freshness of the heights and the fantastics views given by nature are two things that I cherish.",
+          "img": "mountains.png"
         }
       ]
     },
