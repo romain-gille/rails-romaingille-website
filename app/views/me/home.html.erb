@@ -31,7 +31,18 @@
             <div class="progress-bar" role="progressbar" style="width: <%= skill["percentage"] %>%"  aria-valuenow="<%= skill["percentage"] %>" aria-valuemin="0" aria-valuemax="100"> <%= skill["percentage"] %>%</div>
           </div>
         <% end %>
+        <div class="sections text-start ">
+          <h3 class=" pb-2 border-bottom my-4"><%= @me["sections"][4]["title"] %></h3>
+          <div class="language-block d-flex justify-content-between">
+            <% @me["sections"][4]["languages"].each do |language| %>
+              <div class="language-card border">
+                <h4><%= language["name"] %></h4>
+                <%= image_tag("EN.png", :alt => "english flag") %>
+              </div>
+            <% end %>
+          </div>
+        </div>
+        <h3></h3>
       </div>
     </div>
   </div>
-</div>
