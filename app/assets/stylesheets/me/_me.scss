@@ -6,12 +6,12 @@
 html {
   font-size: 16px;
 }
-body {
-  color: rgb(18, 18, 29);
-}
+// body {
+//   color: rgb(18, 18, 29);
+// }
 .col-images {
   overflow: hidden;
-  background-image: url("rorobo.webp");
+  background-image: url("home/rorobo.webp");
   background-position: center;
   background-size: cover;
   height: calc(100vh - 56px);
@@ -55,21 +55,15 @@ body {
   .progress-bar {
     border-radius: 10px;
   }
+  i {
+    font-size: 4rem;
+    margin: 1rem;
+  }
 }
-i {
-  font-size: 4rem;
-  margin: 1rem;
-  // &:hover {
-  //   color: grey;
-  //   cursor: pointer;
-  // }
-}
+
 @media only screen and (max-width: 992px) {
   .col-images {
     position: relative;
-    background-image: url("rorobo.webp");
-    background-position: center;
-    background-size: cover;
     border-radius: 50%;
     width: 50vw;
     height: 50vw;

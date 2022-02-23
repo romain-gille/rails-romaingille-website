@@ -1,2 +1,12 @@
 @import "bootstrap/scss/bootstrap";
 @import "me/me";
+@import "components/index";
+
+body.light {
+  color: rgb(18, 18, 29);
+  background-color: rgb(228, 228, 228);
+}
+body.dark {
+  color: rgb(228, 228, 228);
+  background-color: #212529;
+}
