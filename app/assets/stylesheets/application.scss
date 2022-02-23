@@ -9,4 +9,8 @@ body.light {
 body.dark {
   color: rgb(228, 228, 228);
   background-color: #212529;
+  .col-content {
+    box-shadow: none;
+    border-right: solid 1px rgb(46, 46, 46);
+  }
 }
