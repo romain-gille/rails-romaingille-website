@@ -1,0 +1,184 @@
+{
+  "allpic": [
+    {
+      "id": 1,
+      "source": "gallery/GallShowcase21.webp",
+      "sourcesmall": "gallery/GallShowcase21_1.webp",
+      "width": 1,
+      "height": 1,
+      "hvr": false,
+      "slctd": false
+    },
+    {
+      "id": 2,
+      "source": "gallery/GallShowcase22.webp",
+      "sourcesmall": "gallery/GallShowcase22_1.webp",
+      "width": 1,
+      "height": 1,
+      "hvr": false,
+      "slctd": false
+    },
+    {
+      "id": 3,
+      "source": "gallery/GallShowcase23.webp",
+      "sourcesmall": "gallery/GallShowcase23_1.webp",
+      "width": 3,
+      "height": 2,
+      "hvr": false,
+      "slctd": false
+    },
+    {
+      "id": 4,
+      "source": "gallery/GallShowcase24.webp",
+      "sourcesmall": "gallery/GallShowcase24_1.webp",
+      "width": 10,
+      "height": 16,
+      "hvr": false,
+      "slctd": false
+    },
+    {
+      "id": 5,
+      "source": "gallery/GallShowcase25.webp",
+      "sourcesmall": "gallery/GallShowcase25_1.webp",
+      "width": 4,
+      "height": 3,
+      "hvr": false,
+      "slctd": false
+    },
+    {
+      "id": 6,
+      "source": "gallery/GallShowcase26.webp",
+      "sourcesmall": "gallery/GallShowcase26_1.webp",
+      "width": 1,
+      "height": 1,
+      "hvr": false,
+      "slctd": false
+    },
+    {
+      "id": 7,
+      "source": "gallery/GallShowcase27.webp",
+      "sourcesmall": "gallery/GallShowcase27_1.webp",
+      "width": 2,
+      "height": 1,
+      "hvr": false,
+      "slctd": false
+    },
+    {
+      "id": 8,
+      "source": "gallery/GallShowcase28.webp",
+      "sourcesmall": "gallery/GallShowcase28_1.webp",
+      "width": 16,
+      "height": 10,
+      "hvr": false,
+      "slctd": false
+    },
+    {
+      "id": 9,
+      "source": "gallery/GallShowcase29.webp",
+      "sourcesmall": "gallery/GallShowcase29_1.webp",
+      "width": 1,
+      "height": 1,
+      "hvr": false,
+      "slctd": false
+    },
+    {
+      "id": 10,
+      "source": "gallery/GallShowcase30.webp",
+      "sourcesmall": "gallery/GallShowcase30_1.webp",
+      "width": 3,
+      "height": 1,
+      "hvr": false,
+      "slctd": false
+    },
+    {
+      "id": 11,
+      "source": "gallery/GallShowcase31.webp",
+      "sourcesmall": "gallery/GallShowcase31_1.webp",
+      "width": 4,
+      "height": 3,
+      "hvr": false,
+      "slctd": false
+    },
+    {
+      "id": 12,
+      "source": "gallery/GallShowcase32.webp",
+      "sourcesmall": "gallery/GallShowcase32_1.webp",
+      "width": 3,
+      "height": 2,
+      "hvr": false,
+      "slctd": false
+    },
+    {
+      "id": 13,
+      "source": "gallery/GallShowcase33.webp",
+      "sourcesmall": "gallery/GallShowcase33_1.webp",
+      "width": 16,
+      "height": 9,
+      "hvr": false,
+      "slctd": false
+    },
+    {
+      "id": 14,
+      "source": "gallery/GallShowcase34.webp",
+      "sourcesmall": "gallery/GallShowcase34_1.webp",
+      "width": 3,
+      "height": 2,
+      "hvr": false,
+      "slctd": false
+    },
+    {
+      "id": 15,
+      "source": "gallery/GallShowcase35.webp",
+      "sourcesmall": "gallery/GallShowcase35_1.webp",
+      "width": 1,
+      "height": 1,
+      "hvr": false,
+      "slctd": false
+    },
+    {
+      "id": 16,
+      "source": "gallery/GallShowcase36.webp",
+      "sourcesmall": "gallery/GallShowcase36_1.webp",
+      "width": 2,
+      "height": 1,
+      "hvr": false,
+      "slctd": false
+    },
+    {
+      "id": 17,
+      "source": "gallery/GallShowcase37.webp",
+      "sourcesmall": "gallery/GallShowcase37_1.webp",
+      "width": 4,
+      "height": 3,
+      "hvr": false,
+      "slctd": false
+    },
+    {
+      "id": 18,
+      "source": "gallery/GallShowcase38.webp",
+      "sourcesmall": "gallery/GallShowcase38_1.webp",
+      "width": 1,
+      "height": 1,
+      "hvr": false,
+      "slctd": false
+    },
+    {
+      "id": 19,
+      "source": "gallery/GallShowcase39.webp",
+      "sourcesmall": "gallery/GallShowcase39_1.webp",
+      "width": 16,
+      "height": 9,
+      "hvr": false,
+      "slctd": false
+    },
+    {
+      "id": 20,
+      "source": "gallery/GallShowcase40.webp",
+      "sourcesmall": "gallery/GallShowcase40_1.webp",
+      "width": 1,
+      "height": 1,
+      "hvr": false,
+      "slctd": false
+    }
+  ]
+}

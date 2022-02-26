@@ -1,0 +1,7 @@
+<h1>Hey</h1>
+<%= render :partial => "navbar-gallery", locals: { name: "Example 1", date: "05.09.19-20.01.20", people: 2, place: "Philippines",  } %>
+<div class="container">
+  <% @gallery1["allpic"].each do |img| %>
+    <%= image_tag(img["sourcesmall"], :alt => "img Philippines") %>
+  <% end %>
+</div>
