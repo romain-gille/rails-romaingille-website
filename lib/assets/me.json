@@ -4,7 +4,7 @@
   "sections": [
     {
       "title": "About me",
-      "content": "I'm a motivated engineer interested in web development and process automation. I love to create simple and beautiful interfaces from scratch. In order to achieve it, I discovered many different programms like Microsoft Access, Powerapps, Adobe Lightroom and Inkscape. Actually Learning Front-End development, mastering ReactJs, Angular, Javascript, CSS and HTML motivates me. From various backgrounds, I now want to discover and tackle new challenges."
+      "content": "Naturally curious and full of ideas, I like to discover and experiment with new ways of doing things. As a programmer, I a constantly trying to find more optimal and beautiful methods to tackle problems. Actually Learning Full-Stack Development, mastering Ruby-on-rails, Javascript, CSS and HTML motivates me."
     },
     {
       "title": "Work experience",
@@ -13,7 +13,7 @@
           "job": "Process planer",
           "place": "EVUM Motors",
           "place-link": "https://evum-motors.com/",
-          "time": "July 2020 - Today",
+          "time": "July 2020 - December 2021",
           "aspects": [
             "Creation of a database and an interface for the production",
             "Development of an application for the logistics department",
@@ -74,6 +74,17 @@
       "title": "Education",
       "experiences": [
         {
+          "job": "Web development Bootcamp",
+          "place": "Le Wagon",
+          "place-link": "https://www.lewagon.com/",
+          "time": "March 2022",
+          "aspects": [
+            "Object Oriented Programming (Ruby on Rails)",
+            "Website creation (HTML, CSS)",
+            "Web pages behavior programming (JAVASCRIPT, jQuery, AJAX, Bootstrap)"
+          ]
+        },
+        {
           "job": "French-german master degree in production and automation",
           "place": "University of Applied Sciences Munich",
           "place-link": "https://www.hm.edu/en/index.en.html",
@@ -101,15 +112,23 @@
       "title": "Skills",
       "skills": [
         {
-          "name": "Siemens plant simulation",
-          "percentage": 100
-        },
-        {
           "name": "Microsoft Suite (Access, Excel, Powerpoint)",
           "percentage": 100
         },
         {
-          "name": "Dassault 3Dexperience",
+          "name": "Ruby on rails",
+          "percentage": 80
+        },
+        {
+          "name": "Javascript",
+          "percentage": 80
+        },
+        {
+          "name": "html - CSS",
+          "percentage": 80
+        },
+        {
+          "name": "Siemens Plant Simulation",
           "percentage": 80
         },
         {
@@ -121,11 +140,11 @@
           "percentage": 80
         },
         {
-          "name": "Creative vector illustration (Inkscape)",
-          "percentage": 80
+          "name": "ReactJs",
+          "percentage": 60
         },
         {
-          "name": "Front end development(Reactjs, javascript, css, html, Angular)",
+          "name": "Creative vector illustration (Inkscape)",
           "percentage": 60
         }
       ]

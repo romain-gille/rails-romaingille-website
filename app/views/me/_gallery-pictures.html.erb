@@ -1,6 +1,6 @@
 <div class="container", style= "display:flex;flex-wrap: wrap; grid-gap: 2px">
   <% images["allpic"].each do |img| %>
-    <div class="img-container", style= "width: <%= img['width'].to_f*200 /img['height'] %>px; flex-grow: <%= img['width'].to_f*200 /img['height']%>; max-width: <%= img['width'].to_f*500 /img['height'] %>px">
+    <div class="img-container", style= "width: <%= img['width'].to_f*200 /img['height'] %>px; flex-grow: <%= img['width'].to_f*200 /img['height']%>; max-width: <%= img['width'].to_f*600 /img['height'] %>px">
       <div style= "height: <%=(img['height'].to_f/img['width'])*100%>%">
         <%= image_tag(img["sourcesmall"], :alt => "img Philippines", style: "width: 100%") %></div>
     </div>
