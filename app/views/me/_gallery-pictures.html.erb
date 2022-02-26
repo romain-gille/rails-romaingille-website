@@ -1,0 +1,14 @@
+<div class="container", style= "display:flex;flex-wrap: wrap; grid-gap: 2px">
+  <% images["allpic"].each do |img| %>
+    <div class="img-container", style= "width: <%= img['width'].to_f*200 /img['height'] %>px; flex-grow: <%= img['width'].to_f*200 /img['height']%>; max-width: <%= img['width'].to_f*500 /img['height'] %>px">
+      <div style= "height: <%=(img['height'].to_f/img['width'])*100%>%">
+        <%= image_tag(img["sourcesmall"], :alt => "img Philippines", style: "width: 100%") %></div>
+    </div>
+  <% end %>
+  <% (1..3).each do  %>
+    <div class="img-container", style= "width: 200px; flex-grow: 200 ; max-width: 1000 px">
+      <div style= "height: 0px">
+      </div>
+    </div>
+  <% end %>
+</div>

@@ -1,7 +1,31 @@
-<h1>Hey</h1>
-<%= render :partial => "navbar-gallery", locals: { name: "Example 1", date: "05.09.19-20.01.20", people: 2, place: "Philippines",  } %>
-<div class="container">
-  <% @gallery1["allpic"].each do |img| %>
-    <%= image_tag(img["sourcesmall"], :alt => "img Philippines") %>
-  <% end %>
+<div class="container pt-5">
+  <h1 class= "text-center pb-3">A Simple Gallery</h1>
+  <h4> This is still in development! </h4>
+  <p>
+    I am currently working on this project, the goal is to create a gallery
+    which is:
+    <ul>
+      <li> responsive </li>
+      <li> dowloadable </li>
+      <li> simple </li>
+    </ul>
+  </p>
+  <p>
+    I used different tools to create this page:
+    <ul>
+      <li> ReactJs for the main functions </li>
+      <li> Bootstrap for the component styles </li>
+      <li> Fancybox for the picture viewer </li>
+    </ul>
+  </p>
+  <p>
+    Next goals:
+    <ul>
+      <li> Downloadable content </li>
+    </ul>
+  </p>
 </div>
+<%= render :partial => "navbar-gallery", locals: { name: "Example 1", date: "05.09.19-20.01.20", people: 2, place: "Philippines"  } %>
+<%= render :partial => "gallery-pictures", locals: { images: @gallery1 } %>
+<%= render :partial => "navbar-gallery", locals: { name: "Example 2", date: "21.01.20-20.04.20", people: 2, place: "Philippines"  } %>
+<%= render :partial => "gallery-pictures", locals: { images: @gallery2 } %>
