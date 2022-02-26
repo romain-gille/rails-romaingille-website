@@ -1,6 +1,7 @@
 @import "bootstrap/scss/bootstrap";
 @import "me/me";
 @import "components/index";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700&display=swap");
 
 body.light {
   color: rgb(18, 18, 29);
@@ -13,4 +14,7 @@ body.dark {
     box-shadow: none;
     border-right: solid 1px rgb(46, 46, 46);
   }
+}
+* {
+  font-family: "Poppins", sans-serif;
 }
