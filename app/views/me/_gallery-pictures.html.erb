@@ -1,4 +1,4 @@
-<div class="container", style= "display:flex;flex-wrap: wrap; grid-gap: 2px">
+<div class="container gallery-images", data-gallery-target="images">
   <% images["allpic"].each do |img| %>
     <div class="img-container", style= "width: <%= img['width'].to_f*200 /img['height'] %>px; flex-grow: <%= img['width'].to_f*200 /img['height']%>; max-width: <%= img['width'].to_f*600 /img['height'] %>px">
       <div style= "height: <%=(img['height'].to_f/img['width'])*100%>%">
