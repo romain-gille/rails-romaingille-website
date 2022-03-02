@@ -1,0 +1,4 @@
+<div data-controller="gallery">
+  <%= render :partial => "navbar-gallery", locals: { name: name, date: date, people: people, place: place  } %>
+  <%= render :partial => "gallery-pictures", locals: { images: images } %>
+</div>

@@ -25,9 +25,5 @@
     </ul>
   </p>
 </div>
-<div data-controller="gallery">
-  <%= render :partial => "navbar-gallery", locals: { name: "Example 1", date: "05.09.19-20.01.20", people: 2, place: "Philippines"  } %>
-  <%= render :partial => "gallery-pictures", locals: { images: @gallery1 } %>
-</div>
-<%= render :partial => "navbar-gallery", locals: { name: "Example 2", date: "21.01.20-20.04.20", people: 2, place: "Philippines"  } %>
-<%= render :partial => "gallery-pictures", locals: { images: @gallery2 } %>
+<%= render :partial => "gallery-all", locals: {name: "Example 1", date: "04.09.19-20.01.20", people: 2, place: "Philippines", images: @gallery1 } %>
+<%= render :partial => "gallery-all", locals: {name: "Example 2", date: "21.01.20-20.04.20", people: 2, place: "Philippines", images: @gallery2 } %>
