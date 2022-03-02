@@ -1,0 +1,54 @@
+{
+  "pics-carousel": [
+    {
+      "id": 1,
+      "source1": "beforeafter/picBA01-1.webp",
+      "source2": "beforeafter/picBA01-2.webp"
+    },
+    {
+      "id": 2,
+      "source1": "beforeafter/picBA02-1.webp",
+      "source2": "beforeafter/picBA02-2.webp"
+    },
+    {
+      "id": 3,
+      "source1": "beforeafter/picBA03-1.webp",
+      "source2": "beforeafter/picBA03-2.webp"
+    },
+    {
+      "id": 4,
+      "source1": "beforeafter/picBA04-1.webp",
+      "source2": "beforeafter/picBA04-2.webp"
+    },
+    {
+      "id": 5,
+      "source1": "beforeafter/picBA05-1.webp",
+      "source2": "beforeafter/picBA05-2.webp"
+    },
+    {
+      "id": 6,
+      "source1": "beforeafter/picBA06-1.webp",
+      "source2": "beforeafter/picBA06-2.webp"
+    },
+    {
+      "id": 7,
+      "source1": "beforeafter/picBA07-1.webp",
+      "source2": "beforeafter/picBA07-2.webp"
+    },
+    {
+      "id": 8,
+      "source1": "beforeafter/picBA08-1.webp",
+      "source2": "beforeafter/picBA08-2.webp"
+    },
+    {
+      "id": 9,
+      "source1": "beforeafter/picBA09-1.webp",
+      "source2": "beforeafter/picBA09-2.webp"
+    },
+    {
+      "id": 10,
+      "source1": "beforeafter/picBA10-1.webp",
+      "source2": "beforeafter/picBA10-2.webp"
+    }
+  ]
+}

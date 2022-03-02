@@ -15,4 +15,10 @@ class MeController < ApplicationController
     serialized_me = File.read(filepath)
     @gallery2 = JSON.parse(serialized_me)
   end
+
+  def beforeafter
+    filepath = 'lib/assets/images-carousel.json'
+    serialized_me = File.read(filepath)
+    @carousel = JSON.parse(serialized_me)
+  end
 end

@@ -12,6 +12,9 @@
       <li class="nav-item">
         <%= link_to "Gallery", gallery_path, class: "nav-link " %>
       </li>
+      <li class="nav-item">
+        <%= link_to "Before-After", beforeafter_path, class: "nav-link " %>
+      </li>
     </ul>
     <% if cookies[:theme] == "light" %>
       <%= link_to root_path(theme: "dark") do %>

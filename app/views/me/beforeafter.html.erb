@@ -1,0 +1,22 @@
+<div class="container" data-controller="carousel">
+  <!-- Slider main container -->
+  <div class="swiper mySwiper mt-3">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <% @carousel["pics-carousel"].each do |pic|%>
+        <div class="swiper-slide"><%= image_tag( pic["source1"], :alt => "img Philippines") %></div>
+      <% end %>
+    </div>
+    <!-- If we need pagination -->
+    <%# <div class="swiper-pagination"></div> %>
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+    <!-- If we need scrollbar -->
+    <%# <div class="swiper-scrollbar"></div> %>
+  </div>
+  <div class="img-beforeafter my-5">
+    <%= image_tag( @carousel["pics-carousel"].first["source1"], :alt => "img Philippines") %>
+  </div>
+</div>
