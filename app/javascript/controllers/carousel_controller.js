@@ -1,11 +1,13 @@
 import { Controller } from "@hotwired/stimulus";
 
 export default class extends Controller {
-  // static targets = ["button", "images", "arrow"];
+  static targets = ["images", "imagebefafa", "imagebefafb"];
 
   connect() {
-    console.log("Hello from our first Stimulus controller");
     console.log(window.screen.width);
+    console.log(this.imagesTarget);
+    console.log(this.imagebefafTarget);
+
     var spv = 5;
     if (window.screen.width >= 1024) {
       spv = 5;
@@ -17,11 +19,15 @@ export default class extends Controller {
     var swiper = new Swiper(".mySwiper", {
       slidesPerView: spv,
       spaceBetween: 10,
-      // Navigation arrows
       navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
       },
     });
+  }
+
+  changebefafpic(event) {
+    console.log(event.target.src);
+    this.imagebefafaTarget.src = event.target.src;
   }
 }
