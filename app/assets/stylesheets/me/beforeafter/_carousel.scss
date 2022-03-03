@@ -8,11 +8,11 @@
   }
 }
 .img-beforeafter {
-  width: 100% !important;
-  object-fit: contain;
-
+  width: 100%;
+  .juxtapose {
+    width: 100% !important;
+  }
   img {
-    width: 100%;
     height: auto;
     border-radius: 1rem;
   }

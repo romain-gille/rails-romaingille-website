@@ -1,13 +1,9 @@
 import { Controller } from "@hotwired/stimulus";
 
 export default class extends Controller {
-  static targets = ["images", "imagebefafa", "imagebefafb"];
+  static targets = ["images", "imagebefaf"];
 
   connect() {
-    console.log(window.screen.width);
-    console.log(this.imagesTarget);
-    console.log(this.imagebefafTarget);
-
     var spv = 5;
     if (window.screen.width >= 1024) {
       spv = 5;
@@ -27,7 +23,23 @@ export default class extends Controller {
   }
 
   changebefafpic(event) {
-    console.log(event.target.src);
-    this.imagebefafaTarget.src = event.target.src;
+    slider = new juxtapose.JXSlider(
+      "#beforeafter",
+      [
+        {
+          src: event.target.getAttribute("data-img-id"),
+        },
+        {
+          src: event.target.src,
+        },
+      ],
+      {
+        animate: true,
+        startingPosition: "50%",
+        makeResponsive: true,
+      }
+    );
+
+    this.imagebefafTarget.innerHTML = "";
   }
 }
