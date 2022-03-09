@@ -1,0 +1,4 @@
+meta_product_name: "Romain GILLE"
+meta_title: "Romain GILLE - Fullstack Web-Developer based in Munich"
+meta_description: "I am a web-developer specialized in Ruby-on-rails and JS. This website is a showroom of different small projects I worked on."
+meta_image: "home/mefront.png" # should exist in `app/assets/images/`
