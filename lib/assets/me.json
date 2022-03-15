@@ -1,6 +1,6 @@
 {
   "title": "Romain GILLE",
-  "catchphrase": "Web Developer based in Munich",
+  "catchphrase": "Fullstack Web Developer based in Munich",
   "sections": [
     {
       "title": "About me",
@@ -10,7 +10,7 @@
       "title": "Work experience",
       "experiences": [
         {
-          "job": "Process planer",
+          "job": "Digital engineer",
           "place": "EVUM Motors",
           "place-link": "https://evum-motors.com/",
           "time": "July 2020 - December 2021",
@@ -112,10 +112,6 @@
       "title": "Skills",
       "skills": [
         {
-          "name": "Microsoft Suite (Access, Excel, Powerpoint)",
-          "percentage": 100
-        },
-        {
           "name": "Ruby on rails",
           "percentage": 80
         },
@@ -126,6 +122,18 @@
         {
           "name": "html - CSS",
           "percentage": 80
+        },
+        {
+          "name": "SQL",
+          "percentage": 80
+        },
+        {
+          "name": "ReactJs",
+          "percentage": 60
+        },
+        {
+          "name": "Microsoft Suite (Access, Excel, Powerpoint)",
+          "percentage": 100
         },
         {
           "name": "Siemens Plant Simulation",
@@ -139,10 +147,7 @@
           "name": "Photography (portraiture, Photoshop, Lightroom)",
           "percentage": 80
         },
-        {
-          "name": "ReactJs",
-          "percentage": 60
-        },
+
         {
           "name": "Creative vector illustration (Inkscape)",
           "percentage": 60
