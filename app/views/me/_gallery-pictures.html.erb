@@ -5,7 +5,7 @@
         <a data-fancybox="<%= images["name"] %>" href='<%= image_url(img["source"]) %>'>
           <%= image_tag(img["sourcesmall"], :alt => "img Philippines", style: "width: 100%") %>
         </a>
-        <button class="select-image-button" data-gallery-target="selectImage" data-action="click->gallery#selectImage" ></button>
+        <button class="select-image-button d-none" data-gallery-target="selectImage" data-action="click->gallery#selectImage" ></button>
       </div>
     </div>
   <% end %>
