@@ -1,5 +1,5 @@
-<nav class="navbar navbar-dark bg-dark navbar-expand-lg p-2 px-4  navbar-gallery">
-  <%#= link_to  name , root_path, class: "navbar-brand" %>
+<nav class="navbar navbar-dark bg-dark navbar-expand-lg p-2 px-4 navbar-gallery">
+
   <a href="#" class= "navbar-brand" data-gallery-target="button" data-action="click->gallery#displayimages" ><i class="fa-solid fa-angle-up me-3" data-gallery-target="arrow"></i><%= name %></a>
   <div class="collapse navbar-collapse" >
     <ul class="navbar-nav me-auto mb-2 mb-lg-0 navbar-gallery-item">
@@ -17,4 +17,5 @@
       </li>
     </ul>
   </div>
+  <button class="btn btn-secondary float-right" data-gallery-target="SelectButton" data-action="click->gallery#displaySelectButton" >Select images</button>
 </nav>
