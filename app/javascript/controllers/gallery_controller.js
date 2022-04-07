@@ -41,6 +41,8 @@ export default class extends Controller {
       })
       this.SelectButtonTarget.innerHTML = "Select images"
       this.DownloadButtonTarget.classList.add("d-none");
+      this.numImagesSelectedValue = 0
+      this.DownloadButtonTarget.innerHTML = `Download ${this.numImagesSelectedValue} files`
     }
 
 
@@ -71,7 +73,7 @@ export default class extends Controller {
       e.currentTarget.style.background = "green"
       this.numImagesSelectedValue += 1
     }
-    console.log(this.numImagesSelectedValue);
     this.DownloadButtonTarget.innerHTML = `Download ${this.numImagesSelectedValue} files`
   }
+
 }
