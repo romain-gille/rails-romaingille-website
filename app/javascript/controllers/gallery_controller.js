@@ -1,11 +1,13 @@
 import { Controller } from "@hotwired/stimulus";
 import { Fancybox } from "@fancyapps/ui";
+import axios from "axios";
 
 export default class extends Controller {
   static targets = ["button", "images", "arrow", "SelectButton", "selectImage", "DownloadButton"];
-  static variables = { numImagesSelected: Number }
+  static variables = { numImagesSelected: Number, imagesChosen: Array }
   connect() {
     this.numImagesSelectedValue = 0
+    this.imagesChosen = []
     console.log("hey");
     setTimeout(100);
     Fancybox.bind(".gallery-images a", {
@@ -19,8 +21,29 @@ export default class extends Controller {
   }
 
   DownloadButton() {
-    console.log("download");
+    console.log("download files");
+    console.log(this.imagesChosen);
+    this.imagesChosen.forEach((img) => {
+      axios({
+        url: img,
+        method: 'GET',
+        responseType: 'blob'
+      })
+        .then((response) => {
+          const url = window.URL
+            .createObjectURL(new Blob([response.data]));
+          const link = document.createElement('a');
+          link.href = url;
+          link.setAttribute('download', 'image.jpg');
+          document.body.appendChild(link);
+          link.click();
+          document.body.removeChild(link);
+        })
+    })
+
   }
+
+
   displaySelectButton(e) {
     e.preventDefault();
     console.log(this.selectImageTargets);
@@ -43,6 +66,7 @@ export default class extends Controller {
       this.DownloadButtonTarget.classList.add("d-none");
       this.numImagesSelectedValue = 0
       this.DownloadButtonTarget.innerHTML = `Download ${this.numImagesSelectedValue} files`
+      this.imagesChosen = []
     }
 
 
@@ -65,15 +89,18 @@ export default class extends Controller {
   }
   selectImage(e) {
     e.preventDefault();
-    console.log(e.currentTarget);
+    let url = e.currentTarget.offsetParent.children[0].children[0].href;
     if (e.currentTarget.style.background.search("green") != -1) {
       e.currentTarget.style.background = null
       this.numImagesSelectedValue -= 1
+      this.imagesChosen.splice(this.imagesChosen.indexOf(url), 1);
     } else {
+      this.imagesChosen.push(url);
       e.currentTarget.style.background = "green"
       this.numImagesSelectedValue += 1
     }
     this.DownloadButtonTarget.innerHTML = `Download ${this.numImagesSelectedValue} files`
+    console.log(this.imagesChosen);
   }
 
 }
